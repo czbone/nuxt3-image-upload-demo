@@ -19,9 +19,6 @@ export default {
         url: '/api/file',
         thumbnailWidth: 150,
         maxFilesize: 0.5,
-        headers: { "My-Awesome-Header": "header value" },
-        //headers: { 'X-CSRF-TOKEN': this.token }
-        //headers: { "X-CSRF-TOKEN": document.head.querySelector("[name=csrf-token]").content }
         dictFileTooBig: 'ファイルサイズの上限は {{maxFilesize}} MB です\n(size: {{filesize}} MB)',
         dictDefaultMessage: 'ファイルをここにドロップ、またはマウスクリックでアップロード',
       },
