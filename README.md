@@ -1,6 +1,6 @@
-# Nuxt 3 uploading image file demo
+# Nuxt 3 uploading image files demo
 
-Uploadin image file with dropzone and multer in Nuxt 3.
+Uploading image files to server with **dropzone** and **multer** modules in Nuxt 3.
 
 ## feature
 
