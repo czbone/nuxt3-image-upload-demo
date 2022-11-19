@@ -1,4 +1,3 @@
-
 import multer from 'multer'
 import { callNodeListener } from 'h3'
 
@@ -37,5 +36,3 @@ export default defineEventHandler(async (event) => {
     })
   }
 })
-
-

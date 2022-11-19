@@ -2,6 +2,8 @@
 
 Uploading image files to server with **dropzone** and **multer** modules in Nuxt 3.
 
+![uploadimagedemo2](https://user-images.githubusercontent.com/4754964/202824830-3ee08bef-505a-4876-94a8-7f21ca9c6edb.gif)
+
 ## feature
 
 - upload by drag and drop
