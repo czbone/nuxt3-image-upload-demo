@@ -17,8 +17,8 @@ export default {
     return {
       dropzoneOptions: {
         url: '/api/file',
-        thumbnailWidth: 150,
-        maxFilesize: 0.5,
+        thumbnailWidth: 150,  // サムネールの幅
+        maxFilesize: 0.5, // ファイルの最大サイズ(Mバイト)
         dictFileTooBig: 'ファイルサイズの上限は {{maxFilesize}} MB です\n(size: {{filesize}} MB)',
         dictDefaultMessage: 'ファイルをここにドロップ、またはマウスクリックでアップロード',
       },
