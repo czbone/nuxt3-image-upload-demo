@@ -26,7 +26,7 @@ const upload = multer({
 
 export default defineEventHandler(async (event) => {
   try {
-    await callNodeListener(upload.single('file'), event.req, event.res)
+    await callNodeListener(upload.single('file'), event.node.req, event.node.res)
     return { success: true }
   } catch (e) {
     return createError({

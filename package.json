@@ -11,7 +11,7 @@
   "dependencies": {
     "@nuxtjs/color-mode": "^3.2.0",
     "@nuxtjs/tailwindcss": "^6.4.1",
-    "daisyui": "^2.50.1",
+    "daisyui": "^2.51.2",
     "multer": "^1.4.5-lts.1",
     "nuxt": "^3.2.2",
     "vue2-dropzone-vue3": "^1.1.0"
