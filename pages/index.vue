@@ -7,7 +7,7 @@
   />
 </template>
 <script>
-import vueDropzone from 'vue2-dropzone-vue3'
+import vueDropzone from '~/_backup/vue2-dropzone-vue3'
 
 export default {
   components: {

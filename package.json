@@ -4,16 +4,16 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "start": "node .output/server/index.mjs"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
     "@nuxtjs/color-mode": "^3.2.0",
     "@nuxtjs/tailwindcss": "^6.4.1",
     "daisyui": "^2.51.2",
+    "dropzone": "^6.0.0-beta.2",
     "multer": "^1.4.5-lts.1",
-    "nuxt": "^3.2.2",
-    "vue2-dropzone-vue3": "^1.1.0"
+    "nuxt": "^3.2.2"
   }
 }

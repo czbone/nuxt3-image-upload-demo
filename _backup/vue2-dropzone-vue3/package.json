@@ -1,0 +1,44 @@
+{
+  "name": "vue2-dropzone-vue3",
+  "description": "Vue3 port of vue2-dropzone A wrapper around Dropzone.js for Vue 3",
+  "version": "1.1.0",
+  "license": "MIT",
+  "author": {
+    "name": "Tim Wickstrom",
+    "email": "tim@wickstrom.me"
+  },
+  "maintainers": [
+    {
+      "name": "Tim Wickstrom",
+      "email": "tim@wickstrom.me",
+      "web": "https://timwickstrom.com"
+    }
+  ],
+  "contributors": [
+    "rowanwins <@rowanwins>",
+    "Vaibhavraj Roham <@vrajroham>",
+    "Alexander Wennerstrøm <@AlexanderYW>"
+  ],
+  "scripts": {
+    "build": "babel src/index.js -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twickstrom/vue-dropzone"
+  },
+  "bugs": {
+    "url": "https://github.com/twickstrom/vue-dropzoneissues"
+  },
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=12"
+  },
+  "type": "commonjs",
+  "peerDependencies": {
+    "core-js": "^3.21.1",
+    "vue": ">=3.0.0"
+  },
+  "dependencies": {
+    "dropzone": "^6.0.0-beta.2"
+  }
+}
