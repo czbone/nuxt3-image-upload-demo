@@ -29,6 +29,20 @@ yarn install
 npm install
 ```
 
+## Production
+
+Build the application for production:
+
+```bash
+# yarn
+yarn build
+yarn start
+
+# npm
+npm run build
+npm run start
+```
+
 ## Development Server
 
 Start the development server on http://localhost:3000
@@ -39,28 +53,6 @@ yarn dev
 
 # npm
 npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# yarn
-yarn build
-
-# npm
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-# yarn
-yarn preview
-
-# npm
-npm run preview
 ```
 
 ## License
